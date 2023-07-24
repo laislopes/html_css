@@ -2,24 +2,43 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portfolio</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="./styles/style.css">
     </head>
     <body>
-        <header></header>
+        <header class="header">
+          <nav class="header__menu">
+            <a class="header__menu__link" href="index.html">Home</a>
+            <a class="header__menu__link" href="about.html">About</a>
+          </nav>
+        </header>
         <main class="presentation">
             <section class="presentation__content">
                 <h1 class="presentation__content__title">
                 Elevate your digital business to another level <strong class="title-highlight">with a quality Front-end!</strong></h1>
                 <p class="presentation__content__text">Hello! I'm Joana Santos, Front-end developer specializing in React, HTML and CSS. I help small businesses and designers put good ideas into practice. Let's talk?</p>
                 <div class="presentation__links">
-                    <a class="presentation__links_link" href="https://instragram.com">Instagram</a>
-                    <a class="presentation__links_link" href="https://github.com/laislopes">Github</a>
+                    <h2 class="presentation__links_subtitle">Access my social media:</h2>
+                    <a class="presentation__links_link" href="https://instragram.com">
+                        <img src="/assets/instagram.png">
+                        Instagram
+                    </a>
+                    <a class="presentation__links_link" href="https://github.com/laislopes">
+                        <img src="/assets/github.png">
+                        Github
+                    </a>
+                    <a class="presentation__links_link" href="https://br.linkedin.com/in/laisjlopes">
+                        <img src="/assets/linkedin.png">
+                        LinkedIn
+                    </a>
                 </div>
             </section>
-            <img src="image.png" alt="Joana Santos's Picture">
+            <img src="/assets/image.png" alt="Joana Santos's Picture">
         </main>
-        <footer></footer>
+        <footer class="footer">
+            <p>Develop by Laís Lopes</p>
+        </footer>
     </body>
 </html>
